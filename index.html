@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noa Fraigneau - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="scanlines"></div>
+
+    <header>
+        <nav>
+            <div class="logo">NOA_FRAIGNEAU<span class="blink">_</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">01 - À PROPOS</a></li>
+                <li><a href="#skills">02 - COMPÉTENCES</a></li>
+                <li><a href="#projects">03 - PROJETS</a></li>
+                <li><a href="#contact">04 - CONTACT</a></li>
+                <li><a href="../Copie de CV Noa 2025 - 2.pdf">05 - CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <p class="greeting">Bonjour, je m'appelle</p>
+                <h1 class="glitch" data-text="Noa Fraigneau">Noa Fraigneau</h1>
+                <h2 class="typing-container">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="sub-tagline">
+                    Je mets ma maîtrise actuelle du <span class="highlight">PHP</span> et d'<span class="highlight">AngularJS</span> au service de la résolution de problèmes complexes.
+                </p>
+                <a href="#contact" class="btn-cyber">CONTACTEZ-MOI</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">01 - À PROPOS</h2>
+            <div class="content-box">
+                <p>
+                    Étudiant en troisième année d'informatique à l'<strong>IUT d'Annecy</strong> ainsi qu'alternant chez <strong>Pronic SAS</strong> dans la Vallée de l'Arve à Marignier.
+                </p>
+                <br>
+                <p>
+                    Passionné par le code et la technique, je cherche constamment à améliorer mes compétences et à relever de nouveaux défis techniques.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">02 - COMPÉTENCES</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>// FRONT-END</h3>
+                    <ul>
+                        <li>HTML / CSS</li>
+                        <li>JavaScript</li>
+                        <li>Angular</li>
+                        <li>VueJS</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>// BACK-END</h3>
+                    <ul>
+                        <li>PHP (Symfony, Laravel)</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>// DATA</h3>
+                    <ul>
+                        <li>Microsoft SQL</li>
+                        <li>MySQL</li>
+                        <li>PostGreSQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">03 - PROJETS</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="card-header">
+                        <h3>VINTED_CLONE_LARAVEL</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Reproduction des fonctionnalités principales de Vinted utilisant le framework PHP Laravel.</p>
+                        <ul class="tech-list">
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <h3>VINTED_CLONE_VUEJS</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Version Front-end reactive de l'application e-commerce développée avec Vue.js.</p>
+                        <ul class="tech-list">
+                            <li>JavaScript</li>
+                            <li>VueJS</li>
+                            <li>API REST</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <h3>SIMON_SAYS_IOT</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Projet de 3ème année : Jeu du Simon Says connecté. Une lampe s'éclaire en 4 couleurs, le joueur doit reproduire la séquence.</p>
+                        <ul class="tech-list">
+                            <li>Python</li>
+                            <li>Hardware</li>
+                            <li>IoT</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">04 - CONTACT</h2>
+            <div class="contact-box">
+                <p>Mon profil vous intéresse ? N'hésitez pas à me contacter ou à consulter mes réseaux.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" class="social-btn">LINKEDIN</a>
+                    <a href="#" target="_blank" class="social-btn">GITHUB</a>
+                    <a href="mailto:tonemail@exemple.com" class="social-btn">EMAIL</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CODA & DESIGN BY NOA FRAIGNEAU © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
